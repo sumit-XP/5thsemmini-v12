@@ -1,0 +1,21 @@
+# YOLOv8 Dataset Configuration for Dairy Cow Behavior Recognition
+# This file defines the dataset paths and classes for YOLOv8 training
+
+# Dataset root path (Kaggle environment)
+path: /kaggle/input/5th-sem-mini-dataset9/dataset-9
+
+# Train/Val/Test splits (COCO format)
+# Train/Val/Test splits (YOLO format)
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 4
+
+# Class names
+names:
+  0: Drinking
+  1: Eating
+  2: Sitting
+  3: Standing
